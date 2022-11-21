@@ -264,6 +264,7 @@ summary {
   --main-btn-color: #188CE8;
   --main-icn-cololor:#F5F5F5;
   --main-icon-color: #AFB1B8;
+  --animate-duration: 2s;
 }
 
 .box-p, .portfolio-list, .sotsial__list, .link__sots, .wrup__ul, .menu-list__item, .menu-list__link, .menu-list__icon, .menu-list, .section-tehnology__svg, .section-item__wraper, .header__list, .menu-list__svg, .button-footer__text, .modal-close, .button-form, .privacy-icon, .privacy-wrapp, .privacy {
