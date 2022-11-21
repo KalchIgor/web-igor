@@ -1,0 +1,160 @@
+
+/*форма*/
+.form-title {  
+    font-weight: 700;
+    @extend %margin-auto;
+    font-size: 20px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    color: var(--main-se-color);
+    @media screen and (max-width: 1199px) {
+      font-size: 20px;
+      line-height: 1.5;
+      
+    }
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .label-text, .input { display: inline;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
+
+  
+  .field {
+    height: 40px;
+    position: relative;
+    margin-bottom: 5px;
+
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: transparent;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+  &:focus {
+    border-color: var(--main-one-color);
+}
+
+  }
+
+ 
+  .field-input {
+    padding: 11px 15px 11px 40px;
+  }
+  
+  .field-icon {
+    fill: var(--main-se-color);
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .field-input:focus + .field-icon {
+    fill: var(--main-one-color);
+  }
+  
+  .message {
+    height: 120px;
+    padding: 15px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+  
+  .message::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+  
+  .privacy {
+    @extend %flex ;  
+    margin-bottom: 30px;
+  }
+  
+  .privacy-wrapp {
+    @extend %flex ;  
+    width: 16px;
+    height: 15px;
+    border: 2px solid;
+    border-color: var(--main-se-color);
+    border-radius: 2px;
+    transition: opacity border 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    fill: var(--main-sir-color);
+    background-color: var(--main-sir-color);
+}
+  
+  .privacy-icon {
+    @extend %flex ;  
+    opacity: 0;
+   
+  }
+ .privacy-input{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    bottom: 0;
+    padding: 0px;
+    clip: rect(0 0 0 0 );
+    overflow: hidden;
+  }
+  
+.privacy-input:checked + .privacy-wrapp {
+    border: transparent; 
+    background-color: #188CE8;
+  }
+  
+  .privacy-input:checked + .privacy-wrapp .privacy-icon {
+    opacity: 1;
+  }
+  .privacy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-left: 9px;
+    color: var(--main-to-color);
+    @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+    }
+  }
+ 
+   .privacy-link {
+    color: var(--main-one-color);
+    text-decoration: underline;
+ 
+  }
+ 
+   .button-form {
+        width: 200px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        color:var(--main-sir-color);
+        background-color: var(--main-one-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        @extend %margin-auto;
+        @extend %flex ;  
+       cursor: pointer;
+     
+     }

@@ -1,0 +1,103 @@
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-se-color);
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.section-frend__subtitle, .portfolio-items__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color:  var(--main-se-color);
+}
+
+.section-frend__subtitle {
+    margin-bottom: 10px;
+}
+
+.section-frend__subtitle, .section-frend__text { text-align: center;
+}
+
+.section-frend__text {
+    font-size: 16px;
+    line-height: 1.17;
+    color:  var(--main-to-color);
+    padding-bottom: 16px;
+}
+
+.section-frend__list{ 
+    @media screen and (min-width:768px) and (max-width:1200px){
+        display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      gap: 30px
+      ;
+}
+ 
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content:space-between;  
+}
+
+    margin: 0px;
+}
+
+.section-frend {
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (max-width: 767px){
+        padding-bottom: 60px;
+    }
+   
+    background-color: var(--main-so-color);
+}
+
+.section-frend__link {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+    background-color: var(--main-sir-color);
+    justify-content: center;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        width: calc((100% - 60px)/2);
+        column-gap: 30px;
+    }
+   
+
+}
+.section-frend__link:not(:last-child){
+    @media screen and (max-width:767px) {
+        margin-bottom: 30px;
+    }
+
+}
+
+.section-frend__img {
+    @media screen and (max-width:767px) {
+       max-width: 450px;
+       max-height: 460px;
+    }
+    @media screen and (min-width:768px) {
+        max-width: 354px;
+        max-height: 374px;
+     }
+     @media screen and (min-width:1200px) {
+        max-width: 270px;
+        max-height: 260px;
+     }
+
+  
+    display: block;
+}
+source {
+    display: block;
+}

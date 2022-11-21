@@ -1,0 +1,27 @@
+@import "./utils/normalize";
+@import "./utils/fonts";
+@import "./utils/vars";
+@import "./utils/placeholder";
+@import "./base/comon";
+@import "./components/container";
+@import "./components/form";
+@import "./components/modal";
+@import "./components/anime";
+@import "./layout/header";
+@import "./layout/logo";
+@import "./layout/hero";
+@import "./layout/properties";
+@import "./layout/foto";
+@import "./layout/team";
+@import "./layout/footer";
+@import "./layout/menu";
+@import "./pages/buttons";
+@import "./pages/portfolio";
+@import "./mobile/mobile-menu";
+
+
+
+/*
+.li-tehnology {
+    flex-basis: calc(100%-30px*3)/4;
+} */

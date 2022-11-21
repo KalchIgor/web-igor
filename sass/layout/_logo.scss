@@ -1,0 +1,34 @@
+
+.logo { 
+    font-family:Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.38;
+    color: var(--main-sr-color);
+    display: inline-block;
+}   
+
+
+
+.logo-web, .logo-b{
+    color:
+    var(--main-one-color);
+} 
+
+.logo-a , .logo-wite { 
+    color: var(--main-sir-color);
+}
+
+.logo-a.active{
+    margin-bottom: 20px;
+}
+
+a.logo.active.logo-activ {
+  
+   padding-top: 20px;
+   padding-bottom: 24px;
+   @media screen  and (min-width: 1200px) {
+    margin-right: 93px ; 
+   }
+}
+

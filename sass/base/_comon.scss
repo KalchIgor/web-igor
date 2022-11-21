@@ -1,0 +1,42 @@
+
+body { 
+    font-family:'Roboto', 'Times New Roman',  sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+   
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+  
+
+header 
+  {
+    border-bottom: 1px solid #ECECEC;
+      
+ }
+img {
+    display: block;
+}
+  
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+a {   margin: 0px;}
+li , ul {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0px;
+    margin: 0px;
+}
+h1 { 
+    text-transform: uppercase; /* Заглавные буквы */
+   }
+h1, h2, h3, p , header , main{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul { padding-inline-start: 0px; }

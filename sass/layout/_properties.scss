@@ -1,0 +1,122 @@
+
+.hidden__header{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*not(:last-child)*/
+.section-tehnology__item {
+     @media screen and (max-width: 767px)  {
+
+   padding-top: 30px;}
+}
+
+.title {
+    @media screen  and (max-width: 767px) {
+        margin-top: 60px;
+        display: inline-block;
+    }
+}
+
+.section-tehnology__item:last-child { 
+    @media screen and (max-width: 767px) {
+
+    padding-bottom: 30px;}
+ }
+
+
+.section-tehnology__item { justify-content: center;
+
+     @media screen and (min-width: 768px)
+{
+    width:  calc((100% - 15px * 4) / 2);
+
+    column-gap: 30px;
+}
+@media screen  and (min-width: 1200px) {
+
+    width:  calc((100% - 15px * 8) / 4);
+}
+    & { @media screen and (max-width: 767px) {
+        width: 100% ;
+    }}
+}
+
+.section-list__tehnology { @media screen and (min-width: 768px) {
+    display: flex; 
+    flex-wrap: wrap;
+     text-align:left; 
+     justify-content: center;
+     gap: 30px
+     ;
+    
+ }
+}
+
+
+.section-item__wraper {
+    border-radius: 4px;
+    background: var(--main-so-color);
+
+    height: 120px;
+    margin-bottom: 30px;
+    @extend %flex ;  
+    @media screen  and (min-width: 1200px) {
+        width: 100%;
+    }
+    @media screen  and (min-width: 768px) and (max-width: 1199px){
+        width:100% ;
+    }
+     & { @media screen and (max-width: 767px) {
+        width: 100% ;
+    }}
+}
+.section-tehnology__headline {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--main-se-color);
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
+}
+.section-tehnology__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-to-color);
+    @media screen and (min-width: 768px) {
+        padding-bottom: 30px;
+    }
+    
+}
+
+.section-tehnology__svg {
+    @extend %flex ;  
+    width: 70px;
+    height: 70px;
+}
+.section__tehnology {
+     @media screen  and (min-width: 1200px) {
+    padding-bottom: 64px;
+    padding-top: 94px;}
+    @media screen  and (min-width: 768px) and (max-width:1199px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+}
+
+.section__tehnology-foto 
+{ @media screen  and (min-width: 1200px) {
+    padding-bottom: 94px;
+}}
+
